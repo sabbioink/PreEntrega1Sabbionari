@@ -1,0 +1,222 @@
+body {
+    background-color: rgba(28, 27, 27, 0.471);
+    min-height: 100dvh;
+
+}
+
+.link-navegacion {
+    font-size: large;
+    text-decoration: none;
+    border-radius: 10px;
+    border-bottom: #858282;
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar {
+    background-color: #828282;
+    text-decoration: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    color: #c58a0b;
+    padding: 15px 20px;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: rgba(28, 27, 27, 0.471);
+}
+
+p {
+    text-decoration: none;
+    color: #343333;
+}
+
+.footer {
+    text-align: end;
+    text-decoration: none;
+    color: #2d2a2a;
+    padding: 0px 0;
+    border: solid #828282;
+    border-radius: 10px;
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: end;
+}
+
+form {
+    width: 250px;
+    margin: 30px auto;
+    padding: 30px;
+    border: 2px solid #858282;
+    border-radius: 10px;
+    background-color: #828282;
+    box-shadow: 4px 4px 10px rgba(29, 26, 23, 0.26);
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin: 10px 0 5px;
+    text-align: center;
+}
+
+.contacto-parrafo {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 19px;
+    font-family: sans-serif;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+iframe {
+    width: 50%;
+    height: 200%;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo-redes {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 0;
+}
+
+.logo-redes img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+}
+
+.resumen-sitio {
+    background-color: #828282;
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 5px auto;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(29, 26, 23, 0.26);
+}
+
+.resumen-sitio h2,
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Merriweather', serif;
+}
+
+.resumen-sitio ul {
+    list-style: none;
+    padding: 0;
+}
+
+.resumen-sitio li {
+    margin: 15px 0;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.resumen-sitio strong {
+    color: #c58a0b;
+}
+
+.sobre-nosotros {
+    max-width: 900px;
+    margin: 5px auto;
+    padding: 40px 20px;
+    background-color: #828282;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(29, 26, 23, 0.26);
+}
+
+.sobre-nosotros h2,
+h1 {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 20px;
+}
+
+.sobre-nosotros p {
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.servicios {
+    max-width: 900px;
+    margin: 5px auto;
+    padding: 40px 20px;
+    background-color: #828282;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(29, 26, 23, 0.26);
+}
+
+.servicios h2,
+h1 {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 20px;
+}
+
+.servicios p {
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.Portfolio h2 {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 20px;
+}
+
+.Portfolio {
+    max-width: 900px;
+    margin: 5px auto;
+    padding: 40px 20px;
+    background-color: #828282;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(29, 26, 23, 0.26);
+}
+
+.Portfolio p {
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    color: #333;
+}
