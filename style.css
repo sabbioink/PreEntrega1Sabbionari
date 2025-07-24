@@ -49,20 +49,21 @@ main {
 h1 {
     text-align: center;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h2 {
     text-align: center;
     text-decoration: underline;
-    font-family: sans-serif;
     font-size: 20px;
-    color: rgba(28, 27, 27, 0.471);
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 p {
     text-decoration: none;
     color: #fffafa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .footer {
@@ -145,7 +146,7 @@ iframe {
 h1 {
     text-align: center;
     margin-bottom: 20px;
-    font-family: 'Merriweather', serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .resumen-sitio ul {
@@ -177,7 +178,7 @@ h1 {
 .sobre-nosotros h2,
 h1 {
     text-align: center;
-    font-family: 'Merriweather', serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 20px;
     color: #fff;
 }
@@ -187,6 +188,7 @@ h1 {
     line-height: 1.7;
     margin-bottom: 20px;
     color: #fffefe;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .servicios {
@@ -203,9 +205,10 @@ h1 {
 .servicios h2,
 h1 {
     text-align: center;
-    font-family: 'Merriweather', serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 20px;
     color: #f7f3f3;
+    text-decoration: none;
 }
 
 .servicios p {
@@ -213,6 +216,7 @@ h1 {
     line-height: 1.7;
     margin-bottom: 20px;
     color: #b3b3b3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .Portfolio {
@@ -222,6 +226,11 @@ h1 {
     background-color: #828282;
     border-radius: 10px;
     box-shadow: 4px 4px 10px rgba(29, 26, 23, 0.26);
+}
+.portfolio-h2 {
+    text-decoration: none;
+    top: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .galeria-lenguajes img {
@@ -263,6 +272,7 @@ h1 {
     font-size: 2rem;
     margin-bottom: 30px;
     color: #c9c9c9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .grid-container {
@@ -294,12 +304,14 @@ h1 {
     font-size: 1.2rem;
     margin: 15px 0 5px;
     color: #222;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .grid-item p {
     padding: 0 15px 20px;
     font-size: 0.95rem;
     color: #555;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .contacto {
@@ -356,8 +368,9 @@ form button {
 form button:hover {
     background-color: #203a43;
 }
-.contacto-parrafo {
+.contacto-h2 {
     font-weight: bold;
     margin: 0 auto;
     align-items: center;
+    text-decoration: none;
 }
