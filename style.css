@@ -69,14 +69,15 @@ p {
 .footer {
     text-align: end;
     text-decoration: none;
-    color: #2d2a2a;
+    color: #fff;
     padding: 0px 0;
-    border: solid #828282;
+    border: solid #aaa9a9;
     border-radius: 10px;
     display: block;
     margin: 0;
     position: end;
 }
+
 
 form {
     width: 250px;
