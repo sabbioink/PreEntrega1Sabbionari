@@ -1,0 +1,41 @@
+@use "variables" as *;
+@use "mixins" as *;
+
+.link-navegacion {
+    font-size: large;
+    text-decoration: none;
+    border-radius: 10px;
+    border-bottom: $border-color;
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: $gap;
+}
+
+.navbar {
+    background: transparent;
+    text-decoration: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+
+    ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    a {
+        color: $link-color;
+        padding: 15px 20px;
+        display: block;
+        text-decoration: none;
+        position: relative;
+        @include efecto-neon-hover(#00ffff);
+        border-radius: 10px;
+    }
+    }

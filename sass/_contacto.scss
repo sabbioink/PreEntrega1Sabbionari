@@ -1,0 +1,37 @@
+@use "variables" as *;
+
+
+.contacto {
+    flex: 1;
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacto-parrafo {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 19px;
+    font-family: sans-serif;
+}
+
+.logo-redes {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 0;
+}
+
+.logo-redes img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+}
+
+.logo-redes img:hover {
+    transform: scale(1.1);
+}

@@ -1,0 +1,43 @@
+@use "variables" as *;
+
+body {
+    background: transparent;
+    font-family: $font-main;
+    min-height: 100dvh;
+    margin: 0;
+    color: $color-white;
+    height: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://i.pinimg.com/1200x/c3/70/d8/c370d899ab5d139249fb164d4348786e.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: $color-background-overlay;
+    z-index: -1;
+}
+
+h1,
+h2 {
+    text-align: center;
+    font-family: $font-main;
+    text-shadow: 1px 1px 5px black;
+    animation: fadeInDown 1s ease-out;
+}
+
+p {
+    text-decoration: none;
+    color: $color-faint-white;
+    font-family: $font-main;
+}

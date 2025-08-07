@@ -1,0 +1,21 @@
+@use "variables" as *;
+
+main {
+    flex: 1;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    color: $color-footer-text;
+}
+
+.footer {
+    text-align: end;
+    color: $color-white;
+    padding: 0;
+    border: solid $color-form-border;
+    border-radius: 10px;
+    margin: 0;
+    display: block;
+}

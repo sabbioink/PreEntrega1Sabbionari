@@ -1,0 +1,39 @@
+@use "variables" as *;
+@use "mixins" as *;
+
+.resumen-sitio {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 900px;
+    border-radius: 12px;
+    justify-content: center;
+    @include efecto-neon-hover(#00ffff);
+}
+
+.resumen-sitio h2,
+.resumen-sitio h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: $font-main;
+    animation: fadeInDown 1s ease-out;
+}
+
+.resumen-sitio ul {
+    list-style: none;
+    padding: 0;
+}
+
+.resumen-sitio li {
+    margin: 15px 0;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.resumen-sitio strong {
+    color: #d1d1d1;
+}
+.patito {
+    display: flex;
+    justify-content: center;
+}

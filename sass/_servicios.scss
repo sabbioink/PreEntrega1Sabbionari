@@ -1,0 +1,30 @@
+@use "variables" as *;
+
+.servicios {
+    max-width: 900px;
+    margin: 5px auto;
+    padding: 40px 20px;
+    background: transparent;
+    border-radius: 10px;
+    box-shadow: $box-shadow-main;
+    margin-bottom: 50px;
+    margin-top: 15px;
+}
+
+.servicios h2,
+.servicios h1 {
+    text-align: center;
+    font-family: $font-main;
+    margin-bottom: 20px;
+    color: $color-servicios-title;
+    text-decoration: none;
+    animation: fadeInDown 1s ease-out;
+}
+
+.servicios p {
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    color: $color-servicios-text;
+    font-family: $font-main;
+}
