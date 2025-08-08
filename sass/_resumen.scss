@@ -9,6 +9,14 @@
     border-radius: 12px;
     justify-content: center;
     @include efecto-neon-hover(#00ffff);
+    @include responsive(tablet) {
+        margin: 2rem;
+        justify-content: center;
+    }
+    @include responsive(mobile) {
+        margin: 3rem;
+        justify-content: center;
+    }
 }
 
 .resumen-sitio h2,
@@ -33,6 +41,7 @@
 .resumen-sitio strong {
     color: #d1d1d1;
 }
+
 .patito {
     display: flex;
     justify-content: center;

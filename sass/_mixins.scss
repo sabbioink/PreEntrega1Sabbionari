@@ -9,3 +9,11 @@
             0 0 30px $color;
     }
 }
+@mixin responsive($breakpoint) {
+    @if $breakpoint == mobile {
+        @media (max-width: 480px) { @content; }
+    }
+    @else if $breakpoint == tablet {
+        @media (max-width: 1024px) { @content; }
+    }
+}

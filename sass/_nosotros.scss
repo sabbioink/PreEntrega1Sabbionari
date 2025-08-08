@@ -1,5 +1,5 @@
 @use "variables" as *;
-@use "mixins" as*;
+@use "mixins" as *;
 
 .sobre-nosotros {
     max-width: 900px;
@@ -11,6 +11,14 @@
     margin-top: 50px;
     margin-bottom: 15px;
     @include efecto-neon-hover(#00ffff);
+        @include responsive(tablet) {
+        margin: 2rem;
+        justify-content: center;
+    }
+    @include responsive(mobile) {
+        margin: 3rem;
+        justify-content: center;
+    }
 }
 
 .sobre-nosotros h2,
