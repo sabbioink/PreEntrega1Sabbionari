@@ -10,10 +10,13 @@
     box-shadow: $box-shadow-main;
     margin-bottom: 50px;
     margin-top: 15px;
-        @include responsive(tablet) {
+        @include efecto-neon-hover(#00ffff);
+
+    @include responsive(tablet) {
         margin: 2rem;
         justify-content: center;
     }
+
     @include responsive(mobile) {
         margin: 3rem;
         justify-content: center;
