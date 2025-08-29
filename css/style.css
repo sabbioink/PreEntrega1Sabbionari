@@ -387,6 +387,10 @@ h1 {
   transform: scaleX(1);
 }
 
+.nombre-empresa {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .resumen-sitio h2 {
   text-align: center;
   margin-bottom: 20px;

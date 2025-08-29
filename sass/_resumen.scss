@@ -53,6 +53,9 @@
 .nombre-empresa:hover::before {
     transform: scaleX(1);
 }
+.nombre-empresa {
+    font-family: $font-main;
+}
 
 .resumen-sitio h2 {
     text-align: center;
